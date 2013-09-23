@@ -19,7 +19,7 @@ Siriなどで有名なDragonMobile SDKを使用してます。
   
 >  // APIキー
 
->  const unsigned char SpeechKitApplicationKey[] = {xxxxx};
+  const unsigned char SpeechKitApplicationKey[] = {xxxxx};
 
 >  // ユーザーキー
 
