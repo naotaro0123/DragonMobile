@@ -17,12 +17,10 @@ Siriなどで有名なDragonMobile SDKを使用してます。
 
   [ViewController.m]
   
-  // APIキー
-  
+>  // APIキー
   const unsigned char SpeechKitApplicationKey[] = {xxxxx};
 
-  // ユーザーキー
-  
+>  // ユーザーキー
   [SpeechKit setupWithID:@"NMDPTRIAL_xxxx"
                     host:@"sandbox.nmdp.nuancemobility.net"
                     port:443
