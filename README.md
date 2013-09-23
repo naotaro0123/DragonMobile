@@ -15,16 +15,18 @@ Siriなどで有名なDragonMobile SDKを使用してます。
 
 （２）ユーザ登録後にメールが届くので、プログラムの以下の2箇所を修正する
 
-[ViewController.m]
-const unsigned char SpeechKitApplicationKey[] = {xxxxx};
+  [ViewController.m]
+  // APIキー
+  const unsigned char SpeechKitApplicationKey[] = {xxxxx};
 
-[SpeechKit setupWithID:@"NMDPTRIAL_xxxx"
-                  host:@"sandbox.nmdp.nuancemobility.net"
-                  port:443
-                useSSL:NO
-              delegate:nil];
+  // ユーザーキー
+  [SpeechKit setupWithID:@"NMDPTRIAL_xxxx"
+                    host:@"sandbox.nmdp.nuancemobility.net"
+                    port:443
+                    useSSL:NO
+                    delegate:nil];
+
 
 ※　このコードのライセンスは有効期限が切れています
-![キャプチャ](http://simplecode.jp/lolipop/github/DragonMobile1.png)
-![キャプチャ](http://simplecode.jp/lolipop/github/DragonMobile2.png)
+![キャプチャ](http://simplecode.jp/lolipop/github/DragonMobile1.png)![キャプチャ](http://simplecode.jp/lolipop/github/DragonMobile2.png)
 
