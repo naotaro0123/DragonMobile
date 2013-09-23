@@ -29,6 +29,7 @@ Siriなどで有名なDragonMobile SDKを使用してます。
 
 
 ※　このコードのライセンスは有効期限が切れています
-![キャプチャ](http://simplecode.jp/lolipop/github/DragonMobile1.png)
-![キャプチャ](http://simplecode.jp/lolipop/github/DragonMobile2.png)
+
+<img src="http://simplecode.jp/lolipop/github/DragonMobile1.png" width="40%" height="40%">　
+<img src="http://simplecode.jp/lolipop/github/DragonMobile2.png" width="40%" height="40%">
 
