@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C829699217F088C60034D768 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C829699117F088C60034D768 /* Foundation.framework */; };
+		C829699417F088C60034D768 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C829699317F088C60034D768 /* CoreGraphics.framework */; };
+		C829699617F088C60034D768 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C829699517F088C60034D768 /* UIKit.framework */; };
+		C829699C17F088C60034D768 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C829699A17F088C60034D768 /* InfoPlist.strings */; };
+		C829699E17F088C60034D768 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C829699D17F088C60034D768 /* main.m */; };
+		C82969A217F088C60034D768 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C82969A117F088C60034D768 /* AppDelegate.m */; };
+		C82969A517F088C60034D768 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C82969A317F088C60034D768 /* Main.storyboard */; };
+		C82969A817F088C60034D768 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C82969A717F088C60034D768 /* ViewController.m */; };
+		C82969AA17F088C60034D768 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C82969A917F088C60034D768 /* Images.xcassets */; };
+		C82969B117F088C60034D768 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C82969B017F088C60034D768 /* XCTest.framework */; };
+		C82969B217F088C60034D768 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C829699117F088C60034D768 /* Foundation.framework */; };
+		C82969B317F088C60034D768 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C829699517F088C60034D768 /* UIKit.framework */; };
+		C82969C717F095720034D768 /* SpeechKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C82969C617F095720034D768 /* SpeechKit.framework */; };
+		C82969C917F0998F0034D768 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C82969C817F0998F0034D768 /* AVFoundation.framework */; };
+		C82969CB17F099990034D768 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C82969CA17F099990034D768 /* AudioToolbox.framework */; };
+		C82969D117F09A260034D768 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C82969D017F09A260034D768 /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C82969B417F088C60034D768 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C829698617F088C60034D768 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C829698D17F088C60034D768;
+			remoteInfo = DragonMobile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C829698E17F088C60034D768 /* DragonMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragonMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C829699117F088C60034D768 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C829699317F088C60034D768 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C829699517F088C60034D768 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C829699917F088C60034D768 /* DragonMobile-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DragonMobile-Info.plist"; sourceTree = "<group>"; };
+		C829699B17F088C60034D768 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C829699D17F088C60034D768 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C829699F17F088C60034D768 /* DragonMobile-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DragonMobile-Prefix.pch"; sourceTree = "<group>"; };
+		C82969A017F088C60034D768 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C82969A117F088C60034D768 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C82969A417F088C60034D768 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C82969A617F088C60034D768 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C82969A717F088C60034D768 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C82969A917F088C60034D768 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C82969AF17F088C60034D768 /* DragonMobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragonMobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C82969B017F088C60034D768 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C82969C617F095720034D768 /* SpeechKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpeechKit.framework; sourceTree = "<group>"; };
+		C82969C817F0998F0034D768 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C82969CA17F099990034D768 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C82969CC17F099B10034D768 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		C82969CE17F09A100034D768 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C82969D017F09A260034D768 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C829698B17F088C60034D768 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C82969D117F09A260034D768 /* SystemConfiguration.framework in Frameworks */,
+				C82969CB17F099990034D768 /* AudioToolbox.framework in Frameworks */,
+				C82969C917F0998F0034D768 /* AVFoundation.framework in Frameworks */,
+				C82969C717F095720034D768 /* SpeechKit.framework in Frameworks */,
+				C829699417F088C60034D768 /* CoreGraphics.framework in Frameworks */,
+				C829699617F088C60034D768 /* UIKit.framework in Frameworks */,
+				C829699217F088C60034D768 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C82969AC17F088C60034D768 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C82969B117F088C60034D768 /* XCTest.framework in Frameworks */,
+				C82969B317F088C60034D768 /* UIKit.framework in Frameworks */,
+				C82969B217F088C60034D768 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C829698517F088C60034D768 = {
+			isa = PBXGroup;
+			children = (
+				C829699717F088C60034D768 /* DragonMobile */,
+				C829699017F088C60034D768 /* Frameworks */,
+				C829698F17F088C60034D768 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C829698F17F088C60034D768 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C829698E17F088C60034D768 /* DragonMobile.app */,
+				C82969AF17F088C60034D768 /* DragonMobileTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C829699017F088C60034D768 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C82969D017F09A260034D768 /* SystemConfiguration.framework */,
+				C82969CE17F09A100034D768 /* Security.framework */,
+				C82969CC17F099B10034D768 /* CFNetwork.framework */,
+				C82969CA17F099990034D768 /* AudioToolbox.framework */,
+				C82969C817F0998F0034D768 /* AVFoundation.framework */,
+				C82969C617F095720034D768 /* SpeechKit.framework */,
+				C829699117F088C60034D768 /* Foundation.framework */,
+				C829699317F088C60034D768 /* CoreGraphics.framework */,
+				C829699517F088C60034D768 /* UIKit.framework */,
+				C82969B017F088C60034D768 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C829699717F088C60034D768 /* DragonMobile */ = {
+			isa = PBXGroup;
+			children = (
+				C82969A017F088C60034D768 /* AppDelegate.h */,
+				C82969A117F088C60034D768 /* AppDelegate.m */,
+				C82969A317F088C60034D768 /* Main.storyboard */,
+				C82969A617F088C60034D768 /* ViewController.h */,
+				C82969A717F088C60034D768 /* ViewController.m */,
+				C82969A917F088C60034D768 /* Images.xcassets */,
+				C829699817F088C60034D768 /* Supporting Files */,
+			);
+			path = DragonMobile;
+			sourceTree = "<group>";
+		};
+		C829699817F088C60034D768 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C829699917F088C60034D768 /* DragonMobile-Info.plist */,
+				C829699A17F088C60034D768 /* InfoPlist.strings */,
+				C829699D17F088C60034D768 /* main.m */,
+				C829699F17F088C60034D768 /* DragonMobile-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C829698D17F088C60034D768 /* DragonMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C82969C017F088C60034D768 /* Build configuration list for PBXNativeTarget "DragonMobile" */;
+			buildPhases = (
+				C829698A17F088C60034D768 /* Sources */,
+				C829698B17F088C60034D768 /* Frameworks */,
+				C829698C17F088C60034D768 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DragonMobile;
+			productName = DragonMobile;
+			productReference = C829698E17F088C60034D768 /* DragonMobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C82969AE17F088C60034D768 /* DragonMobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C82969C317F088C60034D768 /* Build configuration list for PBXNativeTarget "DragonMobileTests" */;
+			buildPhases = (
+				C82969AB17F088C60034D768 /* Sources */,
+				C82969AC17F088C60034D768 /* Frameworks */,
+				C82969AD17F088C60034D768 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C82969B517F088C60034D768 /* PBXTargetDependency */,
+			);
+			name = DragonMobileTests;
+			productName = DragonMobileTests;
+			productReference = C82969AF17F088C60034D768 /* DragonMobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C829698617F088C60034D768 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				TargetAttributes = {
+					C82969AE17F088C60034D768 = {
+						TestTargetID = C829698D17F088C60034D768;
+					};
+				};
+			};
+			buildConfigurationList = C829698917F088C60034D768 /* Build configuration list for PBXProject "DragonMobile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C829698517F088C60034D768;
+			productRefGroup = C829698F17F088C60034D768 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C829698D17F088C60034D768 /* DragonMobile */,
+				C82969AE17F088C60034D768 /* DragonMobileTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C829698C17F088C60034D768 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C82969AA17F088C60034D768 /* Images.xcassets in Resources */,
+				C829699C17F088C60034D768 /* InfoPlist.strings in Resources */,
+				C82969A517F088C60034D768 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C82969AD17F088C60034D768 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C829698A17F088C60034D768 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C82969A817F088C60034D768 /* ViewController.m in Sources */,
+				C82969A217F088C60034D768 /* AppDelegate.m in Sources */,
+				C829699E17F088C60034D768 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C82969AB17F088C60034D768 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C82969B517F088C60034D768 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C829698D17F088C60034D768 /* DragonMobile */;
+			targetProxy = C82969B417F088C60034D768 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C829699A17F088C60034D768 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C829699B17F088C60034D768 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C82969A317F088C60034D768 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C82969A417F088C60034D768 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C82969BE17F088C60034D768 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C82969BF17F088C60034D768 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C82969C117F088C60034D768 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/ikewadanaohito/Documents/workspace/iPhone/DragonMobile,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DragonMobile/DragonMobile-Prefix.pch";
+				INFOPLIST_FILE = "DragonMobile/DragonMobile-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C82969C217F088C60034D768 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/ikewadanaohito/Documents/workspace/iPhone/DragonMobile,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DragonMobile/DragonMobile-Prefix.pch";
+				INFOPLIST_FILE = "DragonMobile/DragonMobile-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C82969C417F088C60034D768 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DragonMobile.app/DragonMobile";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DragonMobile/DragonMobile-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DragonMobileTests/DragonMobileTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C82969C517F088C60034D768 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DragonMobile.app/DragonMobile";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DragonMobile/DragonMobile-Prefix.pch";
+				INFOPLIST_FILE = "DragonMobileTests/DragonMobileTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C829698917F088C60034D768 /* Build configuration list for PBXProject "DragonMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C82969BE17F088C60034D768 /* Debug */,
+				C82969BF17F088C60034D768 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C82969C017F088C60034D768 /* Build configuration list for PBXNativeTarget "DragonMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C82969C117F088C60034D768 /* Debug */,
+				C82969C217F088C60034D768 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C82969C317F088C60034D768 /* Build configuration list for PBXNativeTarget "DragonMobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C82969C417F088C60034D768 /* Debug */,
+				C82969C517F088C60034D768 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C829698617F088C60034D768 /* Project object */;
+}
