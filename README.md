@@ -16,14 +16,12 @@ Siriなどで有名なDragonMobile SDKを使用してます。
 （２）ユーザ登録後にメールが届くので、プログラムの以下の2箇所を修正する
 
   [ViewController.m]
-  
->  // APIキー
 
-  const unsigned char SpeechKitApplicationKey[] = {xxxxx};
+    // APIキー
+    const unsigned char SpeechKitApplicationKey[] = {xxxxx};
 
->  // ユーザーキー
-
->  [SpeechKit setupWithID:@"NMDPTRIAL_xxxx"
+    // ユーザーキー
+    [SpeechKit setupWithID:@"NMDPTRIAL_xxxx"
                     host:@"sandbox.nmdp.nuancemobility.net"
                     port:443
                     useSSL:NO
